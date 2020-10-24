@@ -1,0 +1,364 @@
+
+.topnav {
+    background-color:burlywood;
+    overflow: hidden;
+    float: center;
+    padding: 10px;
+    margin-top: 25px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+  
+  }
+  
+ 
+  .topnav a.active {
+    background-color: rgb(247, 19, 19);
+    color: white;
+    padding: 10px;
+  }
+  .topnav a.active:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+ 
+.column {
+  float: left;
+  margin-left: 75px;
+  width: 25%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column3 {
+  float: left;
+  margin-left: 25px;
+  width: 25%;
+  padding: 5px;
+}
+
+
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column1 {
+  margin-top: 50px;
+  float: left;
+  margin-left: 140px;
+  width: 15%;
+  padding: 5px;
+}
+
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 90%;
+}
+.fa:hover {
+  opacity: 0.4;
+}
+
+.fa-instagram {
+  background:#3f729b ;
+  color: white;
+}
+
+
+.fa-linkedin-square {
+  background:  #0e76a8;
+  color: white;
+}
+.fa-github-square {
+  background:  navy;
+  color: white;
+}
+.fa-google {
+  background:  #db3236;
+  color: white;
+}
+.exp1 {
+  background-color:rgba(4, 4, 248, 0.863);
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 200px;
+  margin-left: 250px;
+  border-radius: 100px;
+  width: 30%;
+  margin-top: 25px;
+
+margin-right: 50px;
+}
+.exp1:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp1 img{
+  position: absolute;
+      top: 160px;
+      right: 480px;
+  
+}
+.exp2 {
+  background-color:rgba(4, 4, 248, 0.863);
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 200px;
+  margin-left: 250px;
+  border-radius: 100px;
+  width: 30%;
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp2:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp2 img{
+  position: absolute;
+      top: 600px;
+      right: 530px;
+  
+}
+.exp3 {
+  background-color:yellow;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 200px;
+  margin-left: 70px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp3:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp3 img{
+  position: absolute;
+      top: 350px;
+      height: 300px;
+      right: 530px;
+  
+}
+
+.exp4 {
+  background-color:yellow;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 200px;
+  margin-left: 70px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp4:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp4 img{
+  position: absolute;
+      top: 1600px;
+      height: 300px;
+      right: 580px;
+  
+}
+
+.exp5 {
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp5:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp6 {
+  background-color:yellow;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp6:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp7 {
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp7:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp8 {
+  background-color:yellow;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp8:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp9 {
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp9:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp10 {
+  background-color:yellow;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp10:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp11 {
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp11:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
+.exp12 {
+  background-color:white;
+  overflow: hidden;
+  box-shadow: 100 100px 100px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: center;
+  padding: 50px;
+  margin-left: 230px;
+
+  width: 55%;
+
+  margin-top: 25px;
+
+margin-right: 50px;
+margin-bottom: 50px;
+}
+.exp12:hover{
+  box-shadow: 0 100px 100px 0 rgb(0, 0, 0);
+}
